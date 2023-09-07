@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Images/Logo.png">
+    <link rel="stylesheet" href="style.css">
+    <!-- Slider (CSS) -->
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+    <title> Oqsos - MVP </title>
+</head>
+
+<body>
+
+    <!-- Start ->> Navbar -->
+
+    <div id="Home">
+
+        <nav>
+
+            <img src="Images/Logo.png" alt="Logo" class="logo">
+
+            <div class="box">
+                <input type="text" placeholder="البحث">
+            </div>
+
+            <ul id="navMenu">
+
+                <div class="box">
+                    <input type="text" placeholder="البحث">
+                </div>
+
+                <li><a href="#Home">الرائيسية</a></li>
+                <li><a href="#story">القصص</a></li>
+                <li><a href="#Poster">الخواطر</a></li>
+                <li><a href="#types">التصنيفات</a></li>
+
+            </ul>
+
+            <img src="Images/User-2.jpg" alt="User" class="user-pic" onclick="toggleMenu()">
+
+            <img src="Images/Icons/Menu.png" alt="Menu" onclick="toggleNavMenu()" id="menu">
+
+            <div class="sub-menu-wrap" id="subMenu">
+
+                <div class="sub-menu">
+
+                    <div class="user-info">
+
+                        <img src="Images/User-2.jpg" alt="User" class="user-pic">
+                        <h3>يوسف اسماعيل</h3>
+
+                    </div>
+
+                    <hr color="#369396">
+
+                    <a href="account.html" class="sub-menu-link">
+                        <img src="Images/Icons/Account.png" alt="Account">
+                        <p>الحساب</p>
+                    </a>
+
+                    <a href="#" class="sub-menu-link">
+                        <img src="Images/Icons/Bell.png" alt="Bell">
+                        <p>الاشعارات</p>
+                    </a>
+
+                    <a href="#" class="sub-menu-link">
+                        <img src="Images/Icons/Books.png" alt="Books">
+                        <p>القصص</p>
+                    </a>
+
+                    <hr color="#369396">
+
+                    <a href="#" class="sub-menu-link">
+                        <img src="Images/Icons/Setting.png" alt="Setting">
+                        <p>الاعدادات</p>
+                    </a>
+
+                    <a href="#" class="sub-menu-link">
+                        <img src="Images/Icons/Out.png" alt="Out">
+                        <p>تسجيل الخروج</p>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </div>
+
+    <!-- End ->> Navbar -->
+
+    <!-- Start ->> HomeOne -->
+
+    <section id="slider">
+
+        <div class="wrapper">
+            <input type="radio" name="slide" id="one" checked>
+            <input type="radio" name="slide" id="two">
+            <input type="radio" name="slide" id="three">
+            <input type="radio" name="slide" id="four">
+            <input type="radio" name="slide" id="five">
+            <div class="img img-1">
+                <img src="Images/BG-1.jpg">
+            </div>
+            <div class="img img-2">
+                <img src="Images/BG-2.jpg">
+            </div>
+            <div class="img img-3">
+                <img src="Images/BG-1.jpg">
+            </div>
+            <div class="img img-4">
+                <img src="Images/BG-2.jpg">
+            </div>
+            <div class="img img-5">
+                <img src="Images/BG-1.jpg">
+            </div>
+            <div class="sliders">
+                <label for="one" class="one"></label>
+                <label for="two" class="two"></label>
+                <label for="three" class="three"></label>
+                <label for="four" class="four"></label>
+                <label for="five" class="five"></label>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- End ->> HomeOne -->
+
+    <!-- Start ->> Story -->
+
+    <section id="story">
+
+        <div class="swiper-container mySwiper">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+
+                    <div class="card">
+
+                        <img src="Images/Story-1.jpg" alt="Story">
+
+                        <div class="intro">
+
+                            <div class="profile">
+
+                                <img src="Images/User-2.jpg">
+                                <img src="Images/Icons/Verified.png" class="verified">
+
+                            </div>
+
+                            <h2>فيرماخت</h2>
+                            <a href="#">عمرو البدالى</a>
+
+                            <div class="content-type">
+
+                                <a href="#">اكشن</a>
+                                <a href="#">خيال</a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide">
+
+                    <div class="card">
+
+                        <img src="Images/Story-1.jpg" alt="Story">
+
+                        <div class="intro">
+
+                            <div class="profile">
+
+                                <img src="Images/User-2.jpg">
+                                <img src="Images/Icons/Verified.png" class="verified">
+
+                            </div>
+
+                            <h2>فيرماخت</h2>
+                            <a href="#">عمرو البدالى</a>
+
+                            <div class="content-type">
+
+                                <a href="#">اكشن</a>
+                                <a href="#">خيال</a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide">
+
+                    <div class="card">
+
+                        <img src="Images/Story-1.jpg" alt="Story">
+
+                        <div class="intro">
+
+                            <div class="profile">
+
+                                <img src="Images/User-2.jpg">
+                                <img src="Images/Icons/Verified.png" class="verified">
+
+                            </div>
+
+                            <h2>فيرماخت</h2>
+                            <a href="#">عمرو البدالى</a>
+
+                            <div class="content-type">
+
+                                <a href="#">اكشن</a>
+                                <a href="#">خيال</a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide">
+
+                    <div class="card">
+
+                        <img src="Images/Story-1.jpg" alt="Story">
+
+                        <div class="intro">
+
+                            <div class="profile">
+
+                                <img src="Images/User-2.jpg">
+                                <img src="Images/Icons/Verified.png" class="verified">
+
+                            </div>
+
+                            <h2>فيرماخت</h2>
+                            <a href="#">عمرو البدالى</a>
+
+                            <div class="content-type">
+
+                                <a href="#">اكشن</a>
+                                <a href="#">خيال</a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide">
+
+                    <div class="card">
+
+                        <img src="Images/Story-1.jpg" alt="Story">
+
+                        <div class="intro">
+
+                            <div class="profile">
+
+                                <img src="Images/User-2.jpg">
+                                <img src="Images/Icons/Verified.png" class="verified">
+
+                            </div>
+
+                            <h2>فيرماخت</h2>
+                            <a href="#">عمرو البدالى</a>
+
+                            <div class="content-type">
+
+                                <a href="#">اكشن</a>
+                                <a href="#">خيال</a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide">
+
+                    <div class="card">
+
+                        <img src="Images/Story-1.jpg" alt="Story">
+
+                        <div class="intro">
+
+                            <div class="profile">
+
+                                <img src="Images/User-2.jpg">
+                                <img src="Images/Icons/Verified.png" class="verified">
+
+                            </div>
+
+                            <h2>فيرماخت</h2>
+                            <a href="#">عمرو البدالى</a>
+
+                            <div class="content-type">
+
+                                <a href="#">اكشن</a>
+                                <a href="#">خيال</a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide">
+
+                    <div class="card">
+
+                        <img src="Images/Story-1.jpg" alt="Story">
+
+                        <div class="intro">
+
+                            <div class="profile">
+
+                                <img src="Images/User-2.jpg">
+                                <img src="Images/Icons/Verified.png" class="verified">
+
+                            </div>
+
+                            <h2>فيرماخت</h2>
+                            <a href="#">عمرو البدالى</a>
+
+                            <div class="content-type">
+
+                                <a href="#">اكشن</a>
+                                <a href="#">خيال</a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="story">
+
+        <div class="swiper-container mySwiper">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+
+                    <div class="card">
+
+                        <img src="Images/Story-1.jpg" alt="Story">
+
+                        <div class="intro">
+
+                            <div class="profile">
+
+                                <img src="Images/User-2.jpg">
+                                <img src="Images/Icons/Verified.png" class="verified">
+
+                            </div>
+
+                            <h2>فيرماخت</h2>
+                            <a href="#">عمرو البدالى</a>
+
+                            <div class="content-type">
+
+                                <a href="#">اكشن</a>
+                                <a href="#">خيال</a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide">
+
+                    <div class="card">
+
+                        <img src="Images/Story-1.jpg" alt="Story">
+
+                        <div class="intro">
+
+                            <div class="profile">
+
+                                <img src="Images/User-2.jpg">
+                                <img src="Images/Icons/Verified.png" class="verified">
+
+                            </div>
+
+                            <h2>فيرماخت</h2>
+                            <a href="#">عمرو البدالى</a>
+
+                            <div class="content-type">
+
+                                <a href="#">اكشن</a>
+                                <a href="#">خيال</a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide">
+
+                    <div class="card">
+
+                        <img src="Images/Story-1.jpg" alt="Story">
+
+                        <div class="intro">
+
+                            <div class="profile">
+
+                                <img src="Images/User-2.jpg">
+                                <img src="Images/Icons/Verified.png" class="verified">
+
+                            </div>
+
+                            <h2>فيرماخت</h2>
+                            <a href="#">عمرو البدالى</a>
+
+                            <div class="content-type">
+
+                                <a href="#">اكشن</a>
+                                <a href="#">خيال</a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide">
+
+                    <div class="card">
+
+                        <img src="Images/Story-1.jpg" alt="Story">
+
+                        <div class="intro">
+
+                            <div class="profile">
+
+                                <img src="Images/User-2.jpg">
+                                <img src="Images/Icons/Verified.png" class="verified">
+
+                            </div>
+
+                            <h2>فيرماخت</h2>
+                            <a href="#">عمرو البدالى</a>
+
+                            <div class="content-type">
+
+                                <a href="#">اكشن</a>
+                                <a href="#">خيال</a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide">
+
+                    <div class="card">
+
+                        <img src="Images/Story-1.jpg" alt="Story">
+
+                        <div class="intro">
+
+                            <div class="profile">
+
+                                <img src="Images/User-2.jpg">
+                                <img src="Images/Icons/Verified.png" class="verified">
+
+                            </div>
+
+                            <h2>فيرماخت</h2>
+                            <a href="#">عمرو البدالى</a>
+
+                            <div class="content-type">
+
+                                <a href="#">اكشن</a>
+                                <a href="#">خيال</a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide">
+
+                    <div class="card">
+
+                        <img src="Images/Story-1.jpg" alt="Story">
+
+                        <div class="intro">
+
+                            <div class="profile">
+
+                                <img src="Images/User-2.jpg">
+                                <img src="Images/Icons/Verified.png" class="verified">
+
+                            </div>
+
+                            <h2>فيرماخت</h2>
+                            <a href="#">عمرو البدالى</a>
+
+                            <div class="content-type">
+
+                                <a href="#">اكشن</a>
+                                <a href="#">خيال</a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide">
+
+                    <div class="card">
+
+                        <img src="Images/Story-1.jpg" alt="Story">
+
+                        <div class="intro">
+
+                            <div class="profile">
+
+                                <img src="Images/User-2.jpg">
+                                <img src="Images/Icons/Verified.png" class="verified">
+
+                            </div>
+
+                            <h2>فيرماخت</h2>
+                            <a href="#">عمرو البدالى</a>
+
+                            <div class="content-type">
+
+                                <a href="#">اكشن</a>
+                                <a href="#">خيال</a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- End ->> Story -->
+
+    <!-- Start ->> Poster -->
+
+    <section id="Poster">
+
+        <div class="post">
+
+            <div class="account">
+
+                <img src="Images/User-2.jpg" class="user">
+
+                <div class="user-links">
+
+                    <h4><span>يوسف اسماعيل</span><img src="Images/Icons/Verified.png" class="Verified"></h4>
+                    <a href="#">@_Youssef_Ismail_</a>
+
+                </div>
+
+            </div>
+
+            <hr color="#369396">
+
+            <div class="content">
+
+                <p>
+                    نتمنى لكم ولعائلاتكم عامًا هجريًا مليئًا بالسعادة والرضا والنجاح. نحتفل اليوم ببداية رحلة جديدة في
+                    حياتنا، حيث يأتي العام الهجري ليملئ قلوبنا بالأمل والتجديد. في هذا العام الجديد، نتمنى لكم رحلة
+                    مليئة بالمحبة والسلام، وأن يعم الخير والنجاح حياتكم وأعمالكم. نسأل الله أن يمنحكم الصحة الجيدة
+                    والسعادة الدائمة، وأن يحقق لكم كل الأماني والأحلام. دعونا نستغل هذا الوقت للتفكر والتأمل في أهدافنا
+                    وتطلعاتنا، ونسعى لتحقيق التقدم والتطور في حياتنا الشخصية والمهنية.
+                </p>
+                <img src="Images/BG-2.jpg">
+
+            </div>
+
+            <hr color="#369396">
+
+            <div class="media">
+
+                <p><span>100k</span><img src="Images/Icons/Love-1.png" class="love"></p>
+                <p><span>1k</span><img src="Images/Icons/Comment-1.png" class="comment"></p>
+                <p><span>300k</span><img src="Images/Icons/View-1.png" class="view"></p>
+
+            </div>
+
+        </div>
+
+        <div class="post">
+
+            <div class="account">
+
+                <img src="Images/User-2.jpg" class="user">
+
+                <div class="user-links">
+
+                    <h4><span>يوسف اسماعيل</span><img src="Images/Icons/Verified.png" class="Verified"></h4>
+                    <a href="#">@_Youssef_Ismail_</a>
+
+                </div>
+
+            </div>
+
+            <hr color="#369396">
+
+            <div class="content">
+
+                <img src="Images/BG-2.jpg">
+
+            </div>
+
+            <hr color="#369396">
+
+            <div class="media">
+
+                <p><span>100k</span><img src="Images/Icons/Love-1.png" class="love"></p>
+                <p><span>1k</span><img src="Images/Icons/Comment-1.png" class="comment"></p>
+                <p><span>300k</span><img src="Images/Icons/View-1.png" class="view"></p>
+
+            </div>
+
+        </div>
+
+        <div class="post">
+
+            <div class="account">
+
+                <img src="Images/User-2.jpg" class="user">
+
+                <div class="user-links">
+
+                    <h4><span>يوسف اسماعيل</span><img src="Images/Icons/Verified.png" class="Verified"></h4>
+                    <a href="#">@_Youssef_Ismail_</a>
+
+                </div>
+
+            </div>
+
+            <hr color="#369396">
+
+            <div class="content">
+
+                <video src="Images/Video.webm" controls></video>
+
+            </div>
+
+            <hr color="#369396">
+
+            <div class="media">
+
+                <p><span>100k</span><img src="Images/Icons/Love-1.png" class="love"></p>
+                <p><span>1k</span><img src="Images/Icons/Comment-1.png" class="comment"></p>
+                <p><span>300k</span><img src="Images/Icons/View-1.png" class="view"></p>
+
+            </div>
+
+        </div>
+
+        <div class="post">
+
+            <div class="account">
+
+                <img src="Images/User-2.jpg" class="user">
+
+                <div class="user-links">
+
+                    <h4><span>يوسف اسماعيل</span><img src="Images/Icons/Verified.png" class="Verified"></h4>
+                    <a href="#">@_Youssef_Ismail_</a>
+
+                </div>
+
+            </div>
+
+            <hr color="#369396">
+
+            <div class="content">
+
+                <p>
+                    نتمنى لكم ولعائلاتكم عامًا هجريًا مليئًا بالسعادة والرضا والنجاح. نحتفل اليوم ببداية رحلة جديدة في
+                    حياتنا، حيث يأتي العام الهجري ليملئ قلوبنا بالأمل والتجديد. في هذا العام الجديد، نتمنى لكم رحلة
+                    مليئة بالمحبة والسلام، وأن يعم الخير والنجاح حياتكم وأعمالكم. نسأل الله أن يمنحكم الصحة الجيدة
+                    والسعادة الدائمة، وأن يحقق لكم كل الأماني والأحلام. دعونا نستغل هذا الوقت للتفكر والتأمل في أهدافنا
+                    وتطلعاتنا، ونسعى لتحقيق التقدم والتطور في حياتنا الشخصية والمهنية.
+                </p>
+
+            </div>
+
+            <hr color="#369396">
+
+            <div class="media">
+
+                <p><span>100k</span><img src="Images/Icons/Love-1.png" class="love"></p>
+                <p><span>1k</span><img src="Images/Icons/Comment-1.png" class="comment"></p>
+                <p><span>300k</span><img src="Images/Icons/View-1.png" class="view"></p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- End ->> Poster -->
+
+    <!-- Start ->> Type -->
+
+    <section id="types">
+
+        <div class="type">
+
+            <img src="Images/Icons/Fire.png" alt="img-type">
+            <h3>اثارة</h3>
+
+            <div class="type-content">
+
+                <p><span>99k</span><img src="Images/Icons/Love-1.png"></p>
+                <p><span>200k</span><img src="Images/Icons/View-1.png"></p>
+
+            </div>
+
+            <button class="type-btn">متابعة</button>
+
+        </div>
+
+        <div class="type">
+
+            <img src="Images/Icons/History.png" alt="img-type">
+            <h3>تاريخ</h3>
+
+            <div class="type-content">
+
+                <p><span>99k</span><img src="Images/Icons/Love-1.png"></p>
+                <p><span>200k</span><img src="Images/Icons/View-1.png"></p>
+
+            </div>
+
+            <button class="type-btn">متابعة</button>
+
+        </div>
+
+        <div class="type">
+
+            <img src="Images/Icons/Book.png" alt="img-type">
+            <h3>أدب</h3>
+
+            <div class="type-content">
+
+                <p><span>99k</span><img src="Images/Icons/Love-1.png"></p>
+                <p><span>200k</span><img src="Images/Icons/View-1.png"></p>
+
+            </div>
+
+            <button class="type-btn">متابعة</button>
+
+        </div>
+
+        <div class="type">
+
+            <img src="Images/Icons/Fiction.png" alt="img-type">
+            <h3>خيالى</h3>
+
+            <div class="type-content">
+
+                <p><span>99k</span><img src="Images/Icons/Love-1.png"></p>
+                <p><span>200k</span><img src="Images/Icons/View-1.png"></p>
+
+            </div>
+
+            <button class="type-btn">متابعة</button>
+
+        </div>
+
+
+    </section>
+
+    <!-- End ->> Type -->
+
+    <!-- Start ->> Footer -->
+
+    <footer>
+
+        <div class="footer-main">
+
+            <p>جميع الحقوق محفوظة اقصص دوت كوم 2023</p>
+
+        </div>
+
+        <div class="footer-content">
+
+            <a href="#">سياسة الخصوصية</a>
+            <div class="circle"></div>
+            <a href="#">شروط الاستخدام</a>
+            <div class="circle"></div>
+            <a href="#">الدعم و المساعدة</a>
+
+        </div>
+
+    </footer>
+
+    <!-- End ->> Footer -->
+
+    <!-- JavaScript -->
+    <script src="main.js"></script>
+
+    <!-- Slider -->
+    <script src="swiper-bundle.min.js"></script>
+    <script src="slider.js"></script>
+
+</body>
+
+</html>
